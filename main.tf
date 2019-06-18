@@ -13,3 +13,4 @@ resource "aws_instance" "example" {
 
   count         = "${var.cluster_count}"
 }
+
